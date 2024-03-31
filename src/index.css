@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container {
+  background: url(../public/Mystic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: darken;
+}
+#noise {
+  width: 100%;
+  height: 100%;
+  /* resulting css */
+
+  filter: contrast(110%) brightness(170%);
+  background: linear-gradient(32deg, rgba(27, 27, 28, 1), rgba(0, 0, 0, 0)),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='10' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 100px) and (max-width: 550px) {
+  #container {
+    mix-blend-mode: none;
+    background: url(../public/Mystic.png);
+  }
+  #noise {
+    background: none;
+    filter: none;
+  }
+}
