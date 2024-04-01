@@ -17,17 +17,17 @@ const Skills = () => {
       initial={{ scaleX: 0, scaleY: 0 }}
       whileInView={{ scaleX: 1, scaleY: 1 }}
       transition={{ duration: 0.4 }}
-      className="w-full flex-col sm:flex-row flex justify-between items-center p-14 "
+      className="w-full flex-col sm:flex-row flex justify-between items-center p-5 sm:max-md:p-10 xl:p-14 "
     >
       <div className="flex gap-5 ">
-        <div className="w-[70px] xl:w-[100px] rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
-          <SiMongodb className=" text-6xl xl:text-8xl border-b-2 border-black" />
-          <SiExpress className=" text-6xl xl:text-8xl border-b-2 border-black " />
-          <FaReact className=" text-6xl xl:text-8xl border-b-2 border-black " />
-          <GrNode className=" text-6xl xl:text-8xl border-b-2 border-black " />
-          <PiFramerLogo className="text-6xl xl:text-8xl" />
+        <div className="w-[70px] xl:w-[100px] text-4xl sm:max-md:5xl xl:text-7xl rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
+          <SiMongodb className="  border-b-2 border-black" />
+          <SiExpress className="  border-b-2 border-black " />
+          <FaReact className="  border-b-2 border-black " />
+          <GrNode className="  border-b-2 border-black " />
+          <PiFramerLogo className="" />
         </div>
-        <div className="text-6xl xl:text-8xl my-8 font-[Canopee] ">
+        <div className="text-4xl sm:max-md:5xl xl:text-7xl my-8 font-[Canopee] ">
           <h1>MongoDB</h1>
           <h1>Express</h1>
           <h1>React</h1>
@@ -42,19 +42,19 @@ const Skills = () => {
         className="w-[2px] hidden sm:flex md:max-xl:m-10  bg-black"
       ></motion.div>
       <div className="flex gap-5 rotate-90">
-        <div className="text-6xl xl:text-8xl my-12 xl:my:8 font-[Canopee] ">
+        <div className="text-4xl sm:max-md:5xl xl:text-7xl my-12 xl:my:8 font-[Canopee] ">
           <h1>C++</h1>
           <h1>JavaScript</h1>
           <h1>Git</h1>
           <h1>GSAP</h1>
           <h1>Socket.io</h1>
         </div>
-        <div className="w-[70px] xl:w-[100px] rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
-          <TbBrandCpp className="text-6xl xl:text-8xl " />
-          <SiJavascript className="text-6xl xl:text-8xl" />
-          <GoGitBranch className="text-6xl xl:text-8xl inline" />
-          <MdOutlineAnimation className="text-6xl xl:text-8xl inline" />
-          <SiSocketdotio className="text-6xl xl:text-8xl inline" />
+        <div className="text-4xl sm:max-md:5xl xl:text-7xl w-[70px] xl:w-[100px] rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
+          <TbBrandCpp className=" " />
+          <SiJavascript className="" />
+          <GoGitBranch className="" />
+          <MdOutlineAnimation className="" />
+          <SiSocketdotio className="" />
         </div>
       </div>
     </motion.div>

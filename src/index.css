@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+  font-family: 'Canopee', 'Times New Roman', Times, serif;
+}
 #container {
   background: url(../public/Mystic.png);
   background-size: cover;
