@@ -11,7 +11,7 @@ const Accordian = ({ isDesktop, title, content }) => {
       fontSize: isDesktop ? '50px' : '25px',
     },
     animate: {
-      fontSize: isDesktop ? '4.2rem' : '1.8rem',
+      fontSize: isDesktop ? '4.2rem' : '2rem',
     },
   }
   const [minimised, setMinimised] = useState(true)

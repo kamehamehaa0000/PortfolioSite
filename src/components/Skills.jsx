@@ -17,7 +17,7 @@ const Skills = () => {
       initial={{ scaleX: 0, scaleY: 0 }}
       whileInView={{ scaleX: 1, scaleY: 1 }}
       transition={{ duration: 0.4 }}
-      className="w-full flex-col sm:flex-row flex justify-between items-center p-5 sm:max-md:p-10 xl:p-14 "
+      className="w-full flex-col sm:flex-row flex justify-between items-center p-5 sm:max-md:p-9 xl:p-14 "
     >
       <div className="flex gap-5 ">
         <div className="w-[70px] xl:w-[100px] text-4xl sm:max-md:5xl xl:text-7xl rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
@@ -41,7 +41,7 @@ const Skills = () => {
         transition={{ delay: 0.5 }}
         className="w-[2px] hidden sm:flex md:max-xl:m-10  bg-black"
       ></motion.div>
-      <div className="flex gap-5 rotate-90">
+      <div className="flex gap-5  sm:max-xl:mr-5 rotate-90">
         <div className="text-4xl sm:max-md:5xl xl:text-7xl my-12 xl:my:8 font-[Canopee] ">
           <h1>C++</h1>
           <h1>JavaScript</h1>

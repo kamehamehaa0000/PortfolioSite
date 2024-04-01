@@ -50,7 +50,7 @@ const Projects = () => {
     },
   ]
   return (
-    <div className=" text-2xl sm:max-xl:text-1xl xl:text-4xl  w-full font-[Canopee] px-4 xl:px-10 flex flex-col sm:max-xl:flex-row xl:flex-row items-center gap-5 xl:gap-10 flex-wrap ">
+    <div className=" text-xl sm:max-xl:text-2xl xl:text-3xl  w-full font-[Canopee] px-4 xl:px-10 flex flex-col sm:max-xl:flex-row xl:flex-row items-center gap-5 xl:gap-10 flex-wrap ">
       <div className="w-full sm:w-1/2 ">
         {fccProject.map((c, index) => {
           return (

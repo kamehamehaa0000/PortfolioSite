@@ -28,7 +28,7 @@ const Certifications = () => {
     },
   ]
   return (
-    <div className="text-2xl sm:max-xl:text-3xl xl:text-4xl  font-[Canopee] px-10 flex flex-col sm:flex-row items-center flex-wrap ">
+    <div className="text-xl sm:max-xl:text-2xl xl:text-3xl  font-[Canopee] px-4 sm:px-10 flex flex-col sm:flex-row sm:items-center flex-wrap ">
       {cert.map((c, index) => {
         return (
           <>
@@ -42,7 +42,7 @@ const Certifications = () => {
               initial={{ height: 0 }}
               whileInView={{ height: '50px' }}
               transition={{ delay: 0.5 }}
-              className="w-[2px] mx-4 bg-black "
+              className="w-[2px] mx-4 hidden sm:flex bg-black "
             />
           </>
         )
