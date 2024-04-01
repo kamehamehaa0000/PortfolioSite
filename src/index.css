@@ -1,11 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: Canopee;
+  src: url('./fonts/Canopee.otf');
+}
 * {
   font-family: 'Canopee', 'Times New Roman', Times, serif;
 }
 #container {
-  background: url(../public/JuicyOrange.png);
+  background: url(../public/Sunset.png);
   background-size: cover;
   background-repeat: no-repeat;
   mix-blend-mode: darken;
@@ -23,7 +27,11 @@
 @media (min-width: 100px) and (max-width: 550px) {
   #container {
     mix-blend-mode: none;
-    background: url(../public/JuicyOrange.png);
+    background: linear-gradient(
+      114.2deg,
+      rgb(121, 194, 243) 22.6%,
+      rgb(255, 180, 239) 67.7%
+    );
   }
   #noise {
     background: none;
