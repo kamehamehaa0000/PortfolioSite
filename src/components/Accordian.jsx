@@ -14,7 +14,7 @@ const Accordian = ({ isDesktop, title, content }) => {
       fontSize: isDesktop ? '4.2rem' : '2rem',
     },
   }
-  const [minimised, setMinimised] = useState(true)
+  const [minimised, setMinimised] = useState(false)
   const display = minimised ? 'flex' : 'none'
   return (
     <div className="px-2 md:max-lg:px-5 group">
