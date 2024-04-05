@@ -6,7 +6,7 @@
   src: url('./fonts/Canopee.otf');
 }
 * {
-  font-family: Canopee, 'Times New Roman';
+  font-family: Canopee;
 }
 #container {
   background: url(../public/Sunset.png);
