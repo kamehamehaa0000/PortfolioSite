@@ -17,7 +17,7 @@ const Home = () => {
     <div id="noise">
       <div
         id="container"
-        className="w-screen h-screen py-8 px-2 md:max-lg:px-10 lg:px-16 md:max-lg:py-10 lg:py-10 dark:text-white overflow-x-hidden"
+        className=" text w-screen h-screen py-4 px-2 md:max-lg:px-10 lg:px-16 md:max-lg:py-10 lg:py-10 dark:text-white overflow-x-hidden"
       >
         <Navbar isDesktop={isDesktop} />
         <Accordian
