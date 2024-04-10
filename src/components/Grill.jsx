@@ -7,7 +7,7 @@ const Grill = () => {
   ]
   const cntmid = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
   return (
-    <div className="w-full h-full hidden xl:flex justify-center items-center rounded-full overflow-hidden ">
+    <div className="w-full h-full hidden xl:flex justify-center items-center border-2 border-black rounded-full overflow-hidden ">
       {cnt.map((l, index) => {
         return (
           <>

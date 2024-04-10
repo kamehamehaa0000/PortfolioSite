@@ -22,7 +22,7 @@ const Accordian = ({ isDesktop, title, content, isMaximised }) => {
         initial={{ scaleY: 0, scaleX: 0, width: '200%' }}
         animate={{ scaleY: 1, scaleX: 1, width: '100%' }}
         transition={{ duration: 1, delay: 0 }}
-        className=" w-full h-22 md:max-lg:h-28 lg:h-28 m-1 flex  justify-between items-center border-b-4 border-t-4 border-black overflow-hidden "
+        className=" w-full h-22 md:max-lg:h-28 lg:h-28 m-1 flex  justify-between items-center border-b-4 border-t-4 border-black dark:border-white overflow-hidden "
       >
         <motion.h1
           initial={textAnimation.initial}

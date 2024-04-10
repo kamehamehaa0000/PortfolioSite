@@ -13,20 +13,20 @@ const AboutMe = () => {
       transition={{ duration: 0.4 }}
       className=" w-full flex font-[Canopee] p-4 sm:px-10  py-12 "
     >
-      <div className="text-3xl sm:max-xl:text-5xl  xl:text-5xl  flex-grow  ">
-        <h1 className="border-b-2 hover:text-white border-black">
+      <div className="text-3xl sm:max-xl:text-5xl  xl:text-6xl  flex-grow  ">
+        <h1 className="border-b-2 w-fit hover:text-white border-black">
           I'M AAYUSH GUPTA /
         </h1>
-        <h1 className="border-b-2 hover:text-white border-black">
+        <h1 className="border-b-2 w-fit hover:text-white border-black">
           A Fullstack Developer /
         </h1>
-        <h1 className="border-b-2 hover:text-white border-black">
+        <h1 className="border-b-2 w-fit hover:text-white border-black">
           A Software Engineer /
         </h1>
-        <h1 className="border-b-2 hover:text-white border-black">
+        <h1 className="border-b-2 w-fit hover:text-white border-black">
           An Avid Learner &
         </h1>
-        <h1 className="border-b-2 hover:text-white border-black">
+        <h1 className="border-b-2 w-fit hover:text-white border-black">
           {' '}
           so much more....
         </h1>
@@ -37,7 +37,7 @@ const AboutMe = () => {
         transition={{ delay: 0.5 }}
         className="w-[2px] hidden md:flex mx-4 bg-black"
       />
-      <div className="hidden  lg:flex h-full items-center justify-center ">
+      <div className="hidden lg:flex h-full  ">
         <Grill />
       </div>
     </motion.div>

@@ -9,7 +9,7 @@
   font-family: Canopee;
 }
 #container {
-  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1fe56053-597e-45b3-a3b1-f26197574147/deb1d16-71234bdb-bd93-4684-a149-685a798148b8.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmZTU2MDUzLTU5N2UtNDViMy1hM2IxLWYyNjE5NzU3NDE0N1wvZGViMWQxNi03MTIzNGJkYi1iZDkzLTQ2ODQtYTE0OS02ODVhNzk4MTQ4YjguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._FV3yhpPsFxr53eh_I10JqSh1kO_y6djbMVPvwhwvTg');
+  background: url('./jijitsu.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,19 +19,14 @@
   width: 100%;
   height: 100%;
   /* resulting css */
-
   filter: contrast(110%) brightness(170%);
   background: linear-gradient(32deg, rgba(27, 27, 28, 1), rgba(0, 0, 0, 0)),
     url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='10' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 @media (min-width: 100px) and (max-width: 550px) {
-  /* #container {
-    background: url('https://media3.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    mix-blend-mode: darken;
-  } */
+  #container {
+  }
   #noise {
     background: none;
     filter: none;
