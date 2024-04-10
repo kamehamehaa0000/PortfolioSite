@@ -3,13 +3,13 @@
 @tailwind utilities;
 @font-face {
   font-family: Canopee;
-  src: url('./fonts/Canopee.otf');
+  src: url('../src/assets/Canopee.otf');
 }
 * {
   font-family: Canopee;
 }
 #container {
-  background: url('./jijitsu.gif');
+  background: url('../public/jijitsu.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
