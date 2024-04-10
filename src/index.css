@@ -9,7 +9,7 @@
   font-family: Canopee;
 }
 #container {
-  background: url(../public/Sunset.png);
+  background: url(../public/Flickr.png);
   background-size: cover;
   background-repeat: no-repeat;
   mix-blend-mode: darken;
@@ -29,8 +29,8 @@
     mix-blend-mode: none;
     background: linear-gradient(
       114.2deg,
-      rgb(121, 194, 243) 22.6%,
-      rgb(255, 180, 239) 67.7%
+      rgb(105, 7, 92) 22.6%,
+      rgb(208, 7, 243) 67.7%
     );
   }
   #noise {

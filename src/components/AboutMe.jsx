@@ -13,7 +13,7 @@ const AboutMe = () => {
       transition={{ duration: 0.4 }}
       className=" w-full flex font-[Canopee] p-4 sm:px-10  py-12 "
     >
-      <div className="text-3xl sm:max-xl:text-5xl  xl:text-6xl  flex-grow  ">
+      <div className="text-3xl sm:max-xl:text-5xl  xl:text-5xl  flex-grow  ">
         <h1 className="border-b-2 hover:text-white border-black">
           I'M AAYUSH GUPTA /
         </h1>
@@ -33,7 +33,7 @@ const AboutMe = () => {
       </div>
       <motion.div
         initial={{ height: 0 }}
-        whileInView={{ height: '500px' }}
+        whileInView={{ height: '300px' }}
         transition={{ delay: 0.5 }}
         className="w-[2px] hidden md:flex mx-4 bg-black"
       />

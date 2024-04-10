@@ -19,7 +19,7 @@ const Skills = () => {
       transition={{ duration: 0.4 }}
       className="w-full flex-col sm:flex-row flex justify-between items-center p-5 sm:max-md:p-9 xl:p-14 "
     >
-      <div className="flex gap-5 ">
+      <div className="flex gap-10 ">
         <div className="w-[70px] xl:w-[100px] text-4xl sm:max-md:5xl xl:text-7xl rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
           <SiMongodb className="  border-b-2 border-black" />
           <SiExpress className="  border-b-2 border-black " />
@@ -27,12 +27,12 @@ const Skills = () => {
           <GrNode className="  border-b-2 border-black " />
           <PiFramerLogo className="" />
         </div>
-        <div className="text-4xl sm:max-md:5xl xl:text-7xl my-8 font-[Canopee] ">
-          <h1>MongoDB</h1>
-          <h1>Express</h1>
-          <h1>React</h1>
-          <h1>NodeJS</h1>
-          <h1>Framer Motion</h1>
+        <div className="text-4xl sm:max-md:5xl xl:text-7xl my-9 font-[Canopee] ">
+          <h1 className="  border-b-2 border-black ">MongoDB</h1>
+          <h1 className="  border-b-2 border-black ">Express</h1>
+          <h1 className="  border-b-2 border-black ">React</h1>
+          <h1 className="  border-b-2 border-black ">NodeJS</h1>
+          <h1 className="  border-b-2 border-black ">Framer Motion</h1>
         </div>
       </div>
       <motion.div
@@ -43,11 +43,11 @@ const Skills = () => {
       ></motion.div>
       <div className="flex gap-5  sm:max-xl:mr-5 rotate-90">
         <div className="text-4xl sm:max-md:5xl xl:text-7xl my-12 xl:my:8 font-[Canopee] ">
-          <h1>C++</h1>
-          <h1>JavaScript</h1>
-          <h1>Git</h1>
-          <h1>GSAP</h1>
-          <h1>Socket.io</h1>
+          <h1 className="  border-b-2 border-black ">C++</h1>
+          <h1 className="  border-b-2 border-black ">JavaScript</h1>
+          <h1 className="  border-b-2 border-black ">Git</h1>
+          <h1 className="  border-b-2 border-black ">GSAP</h1>
+          <h1 className="  border-b-2 border-black ">Socket.io</h1>
         </div>
         <div className="text-4xl sm:max-md:5xl xl:text-7xl w-[70px] xl:w-[100px] rounded-3xl border-2 border-black flex flex-wrap items-center justify-between p-4 ">
           <TbBrandCpp className=" " />

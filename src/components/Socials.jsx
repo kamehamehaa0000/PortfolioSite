@@ -11,28 +11,28 @@ const Socials = () => {
       title: 'LinkedIn',
       link: 'https://www.linkedin.com/in/aayush-gupta-b17758130/',
       logo: (
-        <CiLinkedin className="text-4xl sm:max-xl:text-4xl xl:text-8xl inline" />
+        <CiLinkedin className="text-4xl sm:max-xl:text-4xl xl:text-4xl inline" />
       ),
     },
     {
       title: 'Github',
       link: 'https://github.com/kamehamehaa0000',
       logo: (
-        <LiaGithubSquare className="text-4xl sm:max-xl:text-4xl xl:text-8xl inline" />
+        <LiaGithubSquare className="text-4xl sm:max-xl:text-4xl xl:text-4xl inline" />
       ),
     },
     {
       title: 'CodePen',
       link: 'https://codepen.io/Aayush-Gupta-the-sans',
       logo: (
-        <PiCodepenLogoThin className="text-4xl sm:max-xl:text-4xl xl:text-8xl inline" />
+        <PiCodepenLogoThin className="text-4xl sm:max-xl:text-4xl xl:text-4xl inline" />
       ),
     },
     {
       title: 'LeetCode',
       link: 'https://leetcode.com/Kamehamehaa_Aayush/',
       logo: (
-        <TbBrandLeetcode className="text-4xl sm:max-xl:text-4xl xl:text-8xl inline" />
+        <TbBrandLeetcode className="text-4xl sm:max-xl:text-4xl xl:text-4xl inline" />
       ),
     },
   ]
@@ -43,10 +43,10 @@ const Socials = () => {
           <>
             <div
               key={ind + s.tilte}
-              className=" sm:max-xl:text-xl xl:text-4xl sm:p-2 sm:m-2 hover:text-white"
+              className=" sm:max-xl:text-xl xl:text-2xl sm:p-2 sm:m-2  hover:text-white"
             >
               <a href={s.link} target="_blank">
-                <h1 className="hidden sm:inline border-b-2  border-black ">
+                <h1 className="hidden sm:inline border-b-2 xl:mx-1 border-black ">
                   {s.title}
                 </h1>
                 {s.logo}

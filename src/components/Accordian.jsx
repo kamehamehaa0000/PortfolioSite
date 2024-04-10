@@ -5,16 +5,16 @@ import {
   PiArrowCircleUpLeftLight,
 } from 'react-icons/pi'
 
-const Accordian = ({ isDesktop, title, content }) => {
+const Accordian = ({ isDesktop, title, content, isMaximised }) => {
   const textAnimation = {
     initial: {
       fontSize: isDesktop ? '50px' : '25px',
     },
     animate: {
-      fontSize: isDesktop ? '4.2rem' : '2rem',
+      fontSize: isDesktop ? '3.5rem' : '2rem',
     },
   }
-  const [minimised, setMinimised] = useState(true)
+  const [minimised, setMinimised] = useState(isMaximised)
   const display = minimised ? 'flex' : 'none'
   return (
     <div className="px-2 md:max-lg:px-5 group">

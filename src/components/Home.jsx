@@ -24,31 +24,37 @@ const Home = () => {
           title={'About Me'}
           isDesktop={isDesktop}
           content={<AboutMe />}
+          isMaximised={true}
         />
         <Accordian
           title={'Skills'}
           isDesktop={isDesktop}
           content={<Skills />}
+          isMaximised={false}
         />
         <Accordian
           title={'Projects'}
           isDesktop={isDesktop}
           content={<Projects />}
+          isMaximised={false}
         />
         <Accordian
           title={'Certifications'}
           isDesktop={isDesktop}
           content={<Certifications />}
+          isMaximised={false}
         />
         <Accordian
           title={'Socials'}
           isDesktop={isDesktop}
           content={<Socials />}
+          isMaximised={false}
         />
         <Accordian
           title={'Contact Me'}
           isDesktop={isDesktop}
           content={<ContactMe />}
+          isMaximised={true}
         />
       </div>
     </div>
