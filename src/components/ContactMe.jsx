@@ -19,7 +19,7 @@ const ContactMe = () => {
       />
       <div className="hidden lg:block">
         <h1 className="text-3xl border-b-[1px] border-black">Email </h1>
-        <h1 className="font-[Gilroy] text-xl">gayush794@gmail.com</h1>
+        <h1 className="text-xl">gayush794@gmail.com</h1>
       </div>
       <motion.div
         initial={{ height: 0 }}
